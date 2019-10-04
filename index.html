@@ -26,18 +26,38 @@
 
 <body>
     <!--creating a single page application-->
+    
     <!--add navbar for each "page"-->
     <ul class= "nav justify-content-left">
         <li class = "nav-item">
-            <a class = "nav-link" id = "page-one" href = "#">Page One</a>
+            <a class = "nav-link" id = "page-one" href = "#">Brazilian Amazon</a>
         </li>
         <li class = "nav-item">
-            <a class = "nav-link" id = "page-two" href = "#">Page Two</a>
+            <a class = "nav-link" id = "page-two" href = "#">Spread of Fire</a>
         </li>
         <li class = "nav-item">
-            <a class = "nav-link" id = "page-three" href = "#">Page Three</a>
+            <a class = "nav-link" id = "page-three" href = "#">In the Media</a>
         </li>
     </ul>
+    
+    <!--adding the 3 "pages" that will only show one at a time-->
+    <div class="container-fluid">
+        <!--page-one: intro & map-->
+        <section id="page-one" class="page">
+            <h1>Brazilian Amazon</h1>
+        </section>
+        
+        <!--page-two: charts on fire-->
+        <section id="page-two" class="page">
+            <h1>Spread of Fire</h1>
+        </section>
+        
+        <!--page-three: pictures/videos/articles-->
+        <section id="page-three" class="page">
+            <h1>In the Media</h1>
+        </section>
+    </div>
+    
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
