@@ -59,20 +59,21 @@
         <!--page-two: charts on fire-->
         <section id="page-two" class="page">
             <h1>Spread of Fire</h1>
-            <div class="col-12">
+            <div class="col-12" id="charts-info">
 				<h4>The graphs below show the number of fires in each year.</h4>
 				<p>Click on the graph to find out the specific spread of each state through the years.</p>
 			</div>
 			
 			<!--each row will have a chart/graph and the information regarding the data shown in the chart-->
-			<div class="row">
-				<div id="pie-chart" class="charts pie-chart"></div>
-				<div id = "pie-info" class: "col-5">
-				    hello
+			<div class = "row">
+			   <div class = "col-4">
+			       <h5>pie chart of fires in each state</h5>
+				    <div id="pie-chart" class="charts"></div>
 				</div>
-			</div>
-			<div class="row">
-				<div id="bar-chart" class="charts"></div>
+				<div class = "col-4">
+				    <h5>bar chart of fires in months</h5>
+    				<div id="bar-chart"></div>
+				</div>
 			</div>
 			<div class="row">
 				<div id="composite-chart" class="charts"></div>
