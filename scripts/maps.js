@@ -132,7 +132,7 @@ map.on('load', function () {
             "text-anchor": "top"
         },
         "paint": {
-           'text-color': ['get', 'color']
+           "text-color": ["get", "color"]
         }
     });
 

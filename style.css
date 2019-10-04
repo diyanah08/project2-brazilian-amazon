@@ -1,4 +1,5 @@
-html, body {
+html,
+body {
     height: 100%;
     margin: 0px;
     padding: 0px;
@@ -23,25 +24,41 @@ ul {
 }
 
 .page {
-  text-align: center;
-  justify-content: center;
-  width: 100%;
-  height: 100%;
-  /*border: 1px darkgray solid;*/
-  padding: 10px;
-  margin-bottom: 30px;
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    /*border: 1px darkgray solid;*/
+    padding: 10px;
+    margin-bottom: 30px;
 }
 
 h1 {
-  font-size: 57px;
-  padding: 0px;
-  color: firebrick;
-  font-weight: bold;
+    font-size: 57px;
+    padding: 0px;
+    color: firebrick;
+    font-weight: bold;
 }
 
 #map {
-    position:absolute;
+    position: absolute;
     width: 97%;
     height: 75%;
     margin: 10px;
+}
+
+.charts {
+    margin-left: 30px;
+}
+
+.pie-chart {
+    width: 45%;
+    height: 100%;
+    justify-content: center;
+}
+
+#pie-info {
+    background-color: red;
+    height: 100%;
+    margin: 70px 40px;
 }
