@@ -25,66 +25,70 @@
 
 <body>
     <!--creating a single page application-->
-    
+
     <!--add navbar for each "page"-->
-    <ul class= "nav justify-content-left">
-        <li class = "nav-item">
-            <a class = "nav-link" data-dest="page-one" id = "page-one-link" href="#">Brazilian Amazon</a>
+    <ul class="nav justify-content-left">
+        <li class="nav-item">
+            <a class="nav-link" data-dest="page-one" id="page-one-link" href="#">Brazilian Amazon</a>
         </li>
-        <li class = "nav-item">
-            <a class = "nav-link" data-dest="page-two" id = "page-two-link" href="#">Spread of Fire</a>
+        <li class="nav-item">
+            <a class="nav-link" data-dest="page-two" id="page-two-link" href="#">Spread of Fire</a>
         </li>
-        <li class = "nav-item">
-            <a class = "nav-link" data-dest="page-three" id = "page-three-link" href="#">In the Media</a>
+        <li class="nav-item">
+            <a class="nav-link" data-dest="page-three" id="page-three-link" href="#">In the Media</a>
         </li>
     </ul>
-    
-    <!--adding the 3 "pages" that will only show one at a time-->
-    <div class="container-fluid">
-        <!--page-one: intro & map-->
-        <section id="page-one" class="page">
-            <h1>Brazilian Amazon</h1>
-            <div class = "row">
-                <div class = "col-12">
-                    <h4>The majority (60%) of the Amazon Rainforest is located in Brazil.</h4>
-                    <p>The map shows the states in Brazil that are affected by the fires in the Amazon. Click on each fire icon for more information on the states.</p>
-                </div>
-            </div>
-            <div class = "row">
+
+    <!--adding the 4 "pages" that will only show one at a time-->
+    <!--page-one: intro & map-->
+    <div>
+        <section id="page-one" class="page container-fluid">
+            <div class="row">
                 <!--satellite map from mapbox with points and popups of different states-->
-                <div id = "map"></div>
+                <div class="col-sm-1"></div>
+                <div id="map-info" class="col-sm-3">
+                    <h1>Brazilian Amazon</h1>
+                    <h5>The majority (60%) of the Amazon Rainforest is located in Brazil. These areas are sometimes known as the Brazilian Amazon.</h5>
+                    <p>Thousands of fires are ravaging the Amazon rainforest in Brazil - the most intense blazes for almost a decade. The northern states of Roraima, Acre, Rondônia and Amazonas have been particularly badly affected.</p>
+                    <p>The map shows the states in Brazil that are affected by the fires in the Amazon.</p>
+                    <p>Click on each fire icon for more information on the specific states.</p>
+                    <p>Toggle over to "Spread of Fire", "Extend of Damage" or "In the News" to read more about what is happening in the Brazilian states of the Amazon Rainforest</p>
+                </div>
+                <!-- satellite map from mapbox with points and popups of different states -->
+                <div id="map" class="col-sm-7"></div>
             </div>
         </section>
-        
+
+
         <!--page-two: charts on fire-->
         <section id="page-two" class="page">
             <div class="row sub-page">
-			<div class="col-sm-12">
-				<h1>Spread of Fire</h1>
-				<h4>The graphs below show the number of fires in the Brazilian Amazon through the years of 1998-2017. </h4>
-				<p>Click on an aspect of the interactive graphs to find out the specific spread of each state, month or year.</p>
-      </div>
-				<div id="composite-chart" class="charts col-sm-6">
-					<h5>Number of Fires grouped by Months</h5>
-				</div>
-				<div id="pie-chart" class="charts col-sm-5">
-					<h5>Total Number of Fires in Each State</h5>
-				</div>
-				<div id="bar-chart" class="charts col-sm-5">
-					<h5>Cummulative Number of Fires by Months</h5>
-				</div>
-				<div id="stacked-chart" class="charts col-sm-6">
-					<h5>Cummulative Number of Fires Grouped by States</h5>
-				</div>
-		</div>
+                <div class="col-sm-12">
+                    <h1>Spread of Fire</h1>
+                    <h4>The graphs below show the number of fires in the Brazilian Amazon through the years of 1998-2017. </h4>
+                    <p>Click on an aspect of the interactive graphs to find out the specific spread of each state, month or year.</p>
+                </div>
+                <div id="composite-chart" class="charts col-sm-6">
+                    <h5>Number of Fires grouped by Months</h5>
+                </div>
+                <div id="pie-chart" class="charts col-sm-5">
+                    <h5>Total Number of Fires in Each State</h5>
+                </div>
+                <div id="bar-chart" class="charts col-sm-5">
+                    <h5>Cummulative Number of Fires by Months</h5>
+                </div>
+                <div id="stacked-chart" class="charts col-sm-6">
+                    <h5>Cummulative Number of Fires Grouped by States</h5>
+                </div>
+            </div>
         </section>
-        
+
         <!--page-three: pictures/videos/articles-->
         <section id="page-three" class="page">
             <h1>In the Media</h1>
         </section>
     </div>
-    
+
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
@@ -92,7 +96,7 @@
     </script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
     </script>
-    
+
     <!-- OWN SCRIPTS -->
     <script src="scripts/main.js"></script>
     <script src="scripts/charts.js"></script>
