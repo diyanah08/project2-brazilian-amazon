@@ -97,21 +97,21 @@ queue()
 
       dc.pieChart('#pie-chart')
         .height(300)
-        .width(500)
+        .width(450)
         .radius(150)
         .transitionDuration(1500)
         .dimension(state_dim)
         .group(fire_per_state)
-        .colors(d3.scale.ordinal().range(["red", "orange", "green", "blue", "purple", "brown", "pink"]))
-        .legend(dc.legend().x(0).y(70).itemHeight(13).gap(5));
+        .colors(d3.scale.ordinal().range(["red", "orange", "green", "blue", "purple", "brown", "deeppink"]))
+        .legend(dc.legend().x(0).y(200).itemHeight(10).gap(3));
         
     let month_dim = fireCrossFilter.dimension(dc.pluck('month'));
     let fire_per_month = month_dim.group().reduceSum(dc.pluck('number'));
 
       dc.barChart("#bar-chart")
-        .width(700)
-        .height(450)
-        .margins({ top: 0, right: 50, bottom: 50, left: 100 })
+        .width(520)
+        .height(400)
+        .margins({ top: 0, right: 0, bottom: 50, left: 80 })
         .dimension(month_dim)
         .group(fire_per_month)
         .transitionDuration(250)
@@ -120,7 +120,7 @@ queue()
         .xUnits(dc.units.ordinal)
         .xAxisLabel("Month")
         .ordering(function(d) {return -d.value })
-        .yAxisLabel("Number of Fires")
+        .yAxisLabel("Number of Fires [1e+3 = 1000]")
         .yAxis().ticks(20);
         
     let year_dim = fireCrossFilter.dimension(dc.pluck("year"));
