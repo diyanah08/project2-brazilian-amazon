@@ -1,11 +1,36 @@
 /* global axios */
+/* global $ */
 
 let APIKEY = "d868f89e50334512a67d3922bf493da0"
 
-function testNewsAPI()
+// function testNewsAPI()
+// {
+//     axios.get("https://newsapi.org/v2/everything?qInTitle=%22amazon+rainforest+fires%22&sortBy=relavancy&pageSize=10&apiKey=" + APIKEY)
+//         .then(function(response){
+//             console.log(response)
+//         })
+// }
+
+function getNews()
 {
     axios.get("https://newsapi.org/v2/everything?qInTitle=%22amazon+rainforest+fires%22&sortBy=relavancy&pageSize=10&apiKey=" + APIKEY)
         .then(function(response){
-            console.log(response)
+            let results = response.data.articles;
+                for (let each_result of results) {
+                    let card = `
+                    <div class="media mt-3 mb-3">
+                      <img src="${each_result.urlToImage}" class="mr-3 img-thumbnail" style="width:25%">
+                      <div class="media-body">
+                        <h5 class="mt-0">${each_result.title}</h5>
+                        <p class="mt-0">${each_result.description}</p>
+                        <a href="${each_result.url}">[Read the full article]</a>
+                      </div>
+                    </div>
+                    `
+                    $("#news").append($(card));
+                }
         })
+    
 }
+
+getNews()
