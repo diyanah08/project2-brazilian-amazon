@@ -42,15 +42,15 @@ queue()
 
     let compositeChart = dc.compositeChart("#composite-chart");
     compositeChart
-      .width(650)
+      .width(500)
       .height(350)
-      .margins({ top: 30, right: 70, bottom: 50, left: 70 })
+      .margins({ top: 30, right: 50, bottom: 50, left: 50 })
       .dimension(date_dim)
       .x(d3.time.scale().domain([minDate, maxDate]))
       .xAxisLabel("Years")
       .y(d3.scale.log().clamp(true).domain([100, 70000]))
       .yAxisLabel("Number of Fires [1e+3 = 1000]")
-      .legend(dc.legend().horizontal(true).x(100).y(0).itemHeight(13).itemWidth(100).gap(5))
+      .legend(dc.legend().horizontal(true).x(5).y(0).itemHeight(13).itemWidth(40).gap(3))
       .renderHorizontalGridLines(true)
       .compose([
         dc.lineChart(compositeChart)
@@ -78,7 +78,7 @@ queue()
           .colors("brown")
           .group(augustFires, "Aug"),
         dc.lineChart(compositeChart)
-          .colors("skyblue")
+          .colors("teal")
           .group(septemberFires, "Sep"),
         dc.lineChart(compositeChart)
           .colors("limegreen")
@@ -97,21 +97,21 @@ queue()
 
       dc.pieChart('#pie-chart')
         .height(300)
-        .width(450)
+        .width(250)
         .radius(150)
         .transitionDuration(1500)
         .dimension(state_dim)
         .group(fire_per_state)
         .colors(d3.scale.ordinal().range(["red", "orange", "green", "blue", "purple", "brown", "deeppink"]))
-        .legend(dc.legend().x(0).y(200).itemHeight(10).gap(3));
+        .legend(dc.legend().horizontal(true).x(0).y(0).itemWidth(190).gap(0));
         
     let month_dim = fireCrossFilter.dimension(dc.pluck('month'));
     let fire_per_month = month_dim.group().reduceSum(dc.pluck('number'));
 
       dc.barChart("#bar-chart")
-        .width(520)
-        .height(400)
-        .margins({ top: 0, right: 0, bottom: 50, left: 80 })
+        .width(450)
+        .height(350)
+        .margins({ top: 0, right: 0, bottom: 50, left: 60 })
         .dimension(month_dim)
         .group(fire_per_month)
         .transitionDuration(250)
@@ -122,8 +122,9 @@ queue()
         .ordering(function(d) {return -d.value })
         .yAxisLabel("Number of Fires [1e+3 = 1000]")
         .yAxis().ticks(20);
-        
-    let year_dim = fireCrossFilter.dimension(dc.pluck("year"));
+
+//stacked chart --> kiv 
+/*    let year_dim = fireCrossFilter.dimension(dc.pluck("year"));
     
     function fire_by_state(state) {
       return function (d) {
@@ -134,7 +135,7 @@ queue()
         }
       }
     }
-        
+
     let fireInAcreYear = year_dim.group().reduceSum(fire_by_state("Acre"));
     let fireInAmapaYear = year_dim.group().reduceSum(fire_by_state("Amapa"));
     let fireInAmazonasYear = year_dim.group().reduceSum(fire_by_state("Amazonas"));
@@ -161,7 +162,7 @@ queue()
       .xAxisLabel("Year")
       .yAxisLabel("Number of Fires")
       .legend(dc.legend().x(90).y(20).itemHeight(15).gap(5))
-      .colors(d3.scale.ordinal().range(["purple", "pink", "blue", "red", "orange", "green", "brown"]));
+      .colors(d3.scale.ordinal().range(["purple", "pink", "blue", "red", "orange", "green", "brown"]));*/
    
     dc.renderAll(); 
   });
