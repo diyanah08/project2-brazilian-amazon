@@ -21,8 +21,8 @@ function getNews()
                     <div class="media mt-3 mb-3">
                       <img src="${each_result.urlToImage}" class="mr-3 img-thumbnail" style="width:25%">
                       <div class="media-body">
-                        <h5 class="mt-0">${each_result.title}</h5>
-                        <p class="mt-0">${each_result.description}</p>
+                        <h6 class="mt-0">${each_result.title}</h6>
+                        <p class="mt-0 article-text">${each_result.description}</p>
                         <a href="${each_result.url}">[Read the full article]</a>
                       </div>
                     </div>

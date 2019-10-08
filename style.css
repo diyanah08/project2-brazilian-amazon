@@ -5,7 +5,7 @@ html, body, .container-fluid  {
 }
 
 #navbar {
-  background-color: wheat;
+  background-color: rgba(245, 222, 179, 0.775);
   position: fixed;
   width: 100%;
   z-index: 1;
@@ -81,6 +81,23 @@ h5 {
     height: 100%;
 }
 
+#page-four {
+  background-image: url(images/forest.jpg);
+}
+
 #news {
   padding: 20px 100px;
+}
+
+.media {
+    background-color: rgba(255, 255, 255, 0.483);
+}
+
+.media-body {
+    padding: 10px 80px;
+}
+
+.article-text {
+    font-size: 12px;
+    text-align: left;
 }
