@@ -122,11 +122,28 @@ queue()
         .ordering(function(d) {return -d.value })
         .yAxisLabel("Number of Fires [1e+3 = 1000]")
         .yAxis().ticks(20);
+    
+    let year_dim = fireCrossFilter.dimension(dc.pluck("year"))
+    let fire_per_year = year_dim.group().reduceSum(dc.pluck('number'))
+    
+      dc.barChart("#bar-chart2")
+        .width(550)
+        .height(350)
+        .margins({ top: 0, right: 0, bottom: 50, left: 60 })
+        .dimension(year_dim)
+        .group(fire_per_year)
+        .transitionDuration(250)
+        .x(d3.scale.ordinal())
+        .y(d3.scale.log().clamp(true).domain([1000, 550000]))
+        .xUnits(dc.units.ordinal)
+        .xAxisLabel("Month")
+        .yAxisLabel("Number of Fires [1e+3 = 1000]")
+        .yAxis().ticks(20);
+        
+        
 
 //stacked chart --> kiv 
-/*    let year_dim = fireCrossFilter.dimension(dc.pluck("year"));
-    
-    function fire_by_state(state) {
+/*  function fire_by_state(state) {
       return function (d) {
         if (d.state === state) {
           return +d.number;

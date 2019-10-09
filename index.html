@@ -28,21 +28,21 @@
     <!--creating a single page application-->
 
     <!--add navbar for each "page"-->
-    <div id = "navbar">
-    <ul class="nav justify-content-left">
-        <li class="nav-item">
-            <a class="nav-link" data-dest="page-one" id="page-one-link" href="#">Brazilian Amazon</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" data-dest="page-two" id="page-two-link" href="#">Spread of Fire</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" data-dest="page-three" id="page-three-link" href="#">Extend of Damage</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" data-dest="page-four" id="page-three-link" href="#">In the News</a>
-        </li>
-    </ul>
+    <div id="navbar">
+        <ul class="nav justify-content-left">
+            <li class="nav-item">
+                <a class="nav-link" data-dest="page-one" id="page-one-link" href="#">Brazilian Amazon</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" data-dest="page-two" id="page-two-link" href="#">Spread of Fire</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" data-dest="page-three" id="page-three-link" href="#">Extend of Damage</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" data-dest="page-four" id="page-three-link" href="#">In the News</a>
+            </li>
+        </ul>
     </div>
 
     <!--adding the 4 "pages" that will only show one at a time-->
@@ -72,31 +72,45 @@
                 <div class="col-sm-12 intro">
                     <h1>Spread of Fire</h1>
                     <h4>The graphs below show the number of fires in the Brazilian Amazon through the years of 1998-2017. </h4>
-                    <p>Click on an aspect of the interactive graphs to find out the specific spread of each state, month or year.</p>
+                    <p>Click on an aspect of the interactive graphs to find out the specific spread of each state, month or year./p>
                 </div>
                 <div>
-                <!--composite chart for each month for all states through the years-->
-                <div id="composite-chart" class="charts col-sm-4">
-                    <h5>Number of Fires grouped by Months</h5>
-                </div>
-                
-                <!--pie chart for fires by states from years 1998 - 2018-->
-                <div id="pie-chart" class="charts col-sm-3">
-                    <h5>Total Number of Fires in Each State</h5>
-                </div>
-                
-                <!--bar chart for fires by month from years 1998 - 2018-->
-                <div id="bar-chart" class="charts col-sm-4">
-                    <h5>Cummulative Number of Fires by Months</h5>
-                </div>
-                
-                <!--stacked chart fires grouped by states kiv-->
-                <!--<div id="stacked-chart" class="charts col-sm-6">
+
+                    <!--bar chart for fires by years from years 1998 - 2018-->
+                    <div id="bar-chart2" class="charts">
+                        <h5>Cummulative Number of Fires by Years</h5>
+                    </div>
+
+                    <!--pie chart for fires by states from years 1998 - 2018-->
+                    <div id="pie-chart" class="charts">
+                        <h5>Total Number of Fires in Each State</h5>
+                    </div>
+
+                    <!--bar chart for fires by month from years 1998 - 2018-->
+                    <div id="bar-chart" class="charts">
+                        <h5>Cummulative Number of Fires by Months</h5>
+                    </div>
+
+                    <!--composite chart for each month for all states through the years-->
+                    <div id="composite-chart" class="charts">
+                        <h5>Number of Fires grouped by Months</h5>
+                    </div>
+
+                    <!--stacked chart fires grouped by states kiv-->
+                    <!--                <div id="stacked-chart" class="charts col-sm-6">
                     <h5>Cummulative Number of Fires Grouped by States</h5>
                 </div>-->
                 </div>
-                <div>
-                    <h1>About Chart</h1>
+                <div id="more-info">
+                    <p>The charts above show that most of the fires occur during the month of September.</p>
+                    <p>Forest fires are common in the Amazon during the dry season, which runs from July to October. They can be caused by naturally occurring events, such as lightning strikes. However, it can also be started by farmers and loggers clearing
+                        land for crops or grazing.</p>
+                    <p>The Brazilian NGO IPAM (Institute of Environmental Research in Amazonia) notes that more and more fires are not a consequence of a lack of rain but rather the dileberate deforestation of the area. Fires are a common last stage of the
+                        deforestation process in the Amazon region where trees are cut, wood are left behind to dry and later burned so that the ashes can fertilize the soil. When the rains come, pasture grass flourishes in the short term from the nutrients
+                        left by the ashes.</p>
+                    <p>These fires have adverse effects on the environment, athmosphere and biodiversity. Though the fires may fertilise the soil in the short-term, the spread of fires causes the tree cover to decrease and the carbon emission to increase
+                        tremendously.</p>
+                    <p>Click the next tab [Extend of Damage] to take a look at the tree cover loss and carbon emission in the Brazilian Amazon.</p>
                 </div>
             </div>
         </section>
@@ -104,25 +118,28 @@
         <!--page-three: extend of damage-->
         <section id="page-three" class="page container-fluid">
             <!--Info about the graphs and how they relate to each other-->
-            <div class = "sub-page">
+            <div class="sub-page">
                 <div class="col-sm-12 intro">
                     <h1>Extend of Damage</h1>
                     <h4>The fires in the Amazon greatly effect the environment. The vast tree cover of the forest have decreased due to the fires. Additionally, fires contribute the the carbon emission into the athmosphere.</h4>
                     <p>The table below shows the data for tree cover lost and carbon emission from the years 2001 to 2018.</p>
-                    <div id = "damage-table">
-                        
-                    </div>
                 </div>
+                    <img src = "images/fire.jpg" style="height: 270px"/><img src = "images/damage.jpg" style="height: 270px"/><img src = "images/smoke.jpg" style="height: 270px"/>
+                    <div id="more-info">
+                        <p>The fires are emitting large amounts of smoke and carbon. Plumes of smoke from the fires have spread across the Amazon region and beyond. The fires have been not only been releasing a large amount of carbon dioxide but emitting carbon monoxide as well.</p>
+                        <p>The Amazon basin - home to about three million species of plants and animals, and one million indigenous people - is crucial to regulating global warming, with its forests absorbing millions of tonnes of carbon every year. However, when trees are cut or burned, the carbon they are storing is released into the atmosphere and the rainforest's capacity to absorb carbon is reduced.</p>
+                        <p>Click the next tab [In the News] to be updated about the news of the Amazon Rainforest Fires.</p>
+                    </div>
             </div>
         </section>
 
         <!--page-four: pictures/videos/articles-->
         <section id="page-four" class="page container-fluid">
-            <div class = "sub-page">
+            <div class="sub-page">
                 <h1>In the News</h1>
                 <h4>Find out more about what is happening in the Amazon Rainforest by clicking on the articles below</h4>
                 <p>Powered by NewsAPI</p>
-                <div id ="news"></div>
+                <div id="news"></div>
             </div>
         </section>
     </div>

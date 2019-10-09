@@ -1,5 +1,6 @@
-html, body, .container-fluid  {
+html, body, .container-fluid {
     height: 100%;
+    width: 100%;
     margin: 0px;
     padding: 0px;
 }
@@ -25,10 +26,14 @@ ul {
   color: crimson;
 }
 
+#single-page-app {
+    width: 100%;
+}
+
 .page {
     text-align: center;
-    width: 100%;
     height: 100%;
+    width: 100%;
     padding: 55px 10px 0px 10px;
     margin: 0px;
     background-attachment: fixed;
@@ -70,10 +75,6 @@ h5 {
   height: 100%;
 }
 
-.intro {
-    margin-bottom: 40px;
-}
-
 .charts {
     margin-left: 30px;
     margin-bottom: 10px;
@@ -83,6 +84,16 @@ h5 {
     background-color: rgba(255, 255, 255, 0.683);
     margin: 0px 30px;
     height: 100%;
+}
+
+.intro {
+    margin-bottom: 40px;
+}
+
+#more-info {
+    padding: 50px;
+    font-weight: bold;
+    text-align: left;
 }
 
 #page-three {
