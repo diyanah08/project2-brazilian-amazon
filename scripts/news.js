@@ -23,12 +23,12 @@ function getNews()
             let results = response.data.articles;
                 for (let each_result of results) {
                     let card = `
-                    <div class="media mt-3 mb-3">
-                      <img src="${each_result.urlToImage}" class="mr-3 img-thumbnail" style="width:35%">
-                      <div class="media-body">
-                        <h5 class="mt-0">${each_result.title}</h5>
-                        <p class="mt-0 article-text">${each_result.description}</p>
-                        <a href="${each_result.url}" target="_blank">[Read the full article]</a>
+                    <div class="card" style="width: 18rem;">
+                      <img src="${each_result.urlToImage}" class="card-img-top">
+                      <div class="card-body">
+                        <h5 class="card-title">${each_result.title}</h5>
+                        <p class="card-text">${each_result.description}</p>
+                        <a href="${each_result.url}" class="btn btn-primary">Read the full article</a>
                       </div>
                     </div>
                     `
