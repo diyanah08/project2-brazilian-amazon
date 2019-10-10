@@ -16,11 +16,6 @@ body,
     z-index: 1;
 }
 
-ul {
-    padding: 5px;
-    margin: 5px;
-}
-
 .nav-link {
     color: darkgreen;
     font-weight: bold;
@@ -38,7 +33,7 @@ ul {
     text-align: center;
     height: 100%;
     width: 100%;
-    padding: 55px 10px 0px 10px;
+    padding: 55px 0px 0px 0px;
     margin: 0px;
     background-attachment: fixed;
     background-position: bottom right;
@@ -161,6 +156,9 @@ h5 {
   h5 {
     font-size: 14px;
   }
+  h6 {
+    font-size: 10px;
+  }
   p {
       font-size: 12px;
   }
@@ -170,16 +168,24 @@ h5 {
   .sub-page {
     margin: 50px 0px 0px 0px;
     }
-#map {
-position: static;
-margin: 0px;
-width: 100%;
-height: 90%;
+   #map {
+    position: relative;
+    min-height: 350px;
+    min-width: 250px;
+    padding: 0px 10px;
+} 
+.intro {
+    margin-bottom: 20px;
 }
-    
 #map-info {
-    margin: 50px 0px 10px 0px;
+    margin: 20px 0px 10px 0px;
     flex: none;
+}
+.charts {
+    margin: 10px 0px;
+    height: 65%;
+    width: 75%;
+
 }
 #news {
     padding: 20px 30px;
