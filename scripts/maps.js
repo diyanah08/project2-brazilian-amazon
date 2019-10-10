@@ -4,7 +4,7 @@ mapboxgl.accessToken = 'pk.eyJ1IjoiZGl5YW5haDA4IiwiYSI6ImNrMHlwam9pNzBoc2QzYnA4Z
 
 let map = new mapboxgl.Map({
     container: 'map',
-    zoom: 3.5,
+    zoom: 3,
     center: [-60.568359375, -6.928487062665504],
     style: 'mapbox://styles/mapbox/satellite-v9'
 });
@@ -140,7 +140,7 @@ map.on('load', function () {
         let coordinates = e.features[0].geometry.coordinates.slice();
         let description = e.features[0].properties.description;
         
-        new mapboxgl.Popup()
+        new mapboxgl.Popup({ offset: [0, -5] })
         .setLngLat(coordinates)
         .setHTML(description)
         .addTo(map);
