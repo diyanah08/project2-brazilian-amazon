@@ -1,4 +1,8 @@
-html, body, .container-fluid {
+/*main layout styles*/
+
+html,
+body,
+.container-fluid {
     height: 100%;
     width: 100%;
     margin: 0px;
@@ -6,10 +10,10 @@ html, body, .container-fluid {
 }
 
 #navbar {
-  background-color: rgba(245, 222, 179, 0.775);
-  position: fixed;
-  width: 100%;
-  z-index: 1;
+    background-color: rgba(245, 222, 179, 0.775);
+    position: fixed;
+    width: 100%;
+    z-index: 1;
 }
 
 ul {
@@ -23,7 +27,7 @@ ul {
 }
 
 .nav-link:hover {
-  color: crimson;
+    color: crimson;
 }
 
 #single-page-app {
@@ -41,6 +45,23 @@ ul {
     background-size: cover;
 }
 
+.sub-page {
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.683);
+    height: 100%;
+    margin: 0px 30px;
+}
+
+.intro {
+    margin-bottom: 40px;
+}
+
+#more-info {
+    padding: 50px;
+    font-weight: bold;
+    text-align: left;
+}
+
 h1 {
     font-size: 57px;
     padding: 0px;
@@ -49,12 +70,15 @@ h1 {
 }
 
 h5 {
-  padding: 10px;
+    padding: 10px;
 }
 
+
+/*page-one map styles*/
+
 #page-one {
-  background-image: url(images/amazonia.jpg);
-  display: flex;
+    background-image: url(images/amazonia.jpg);
+    display: flex;
 }
 
 #map {
@@ -70,10 +94,13 @@ h5 {
     flex: 1;
 }
 
+
+/*page-two chart styles*/
+
 #page-two {
-  background-image: url(images/amazon.jpg);
-  height: 100%;
-  width: 100%;
+    background-image: url(images/amazon.jpg);
+    height: 100%;
+    width: 100%;
 }
 
 .charts {
@@ -88,39 +115,29 @@ h5 {
 }
 
 .dc-chart .axis text {
-  font-size: 10px;
+    font-size: 10px;
 }
 
 .x-axis-label {
     font-size: 20px;
 }
 
-.sub-page {
-    justify-content: center;
-    background-color: rgba(255, 255, 255, 0.683);
-    height: 100%;
-}
 
-.intro {
-    margin-bottom: 40px;
-}
-
-#more-info {
-    padding: 50px;
-    font-weight: bold;
-    text-align: left;
-}
+/*page-three styles*/
 
 #page-three {
-  background-image: url(images/trees.jpg);
+    background-image: url(images/trees.jpg);
 }
 
+
+/*page-four news*/
+
 #page-four {
-  background-image: url(images/forest.jpg);
+    background-image: url(images/forest.jpg);
 }
 
 #news {
-  padding: 20px 100px;
+    padding: 20px 100px;
 }
 
 .media {
