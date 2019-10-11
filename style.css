@@ -11,6 +11,8 @@ body,
 
 #navbar {
     background-color: rgba(245, 222, 179, 0.775);
+    font-family: 'BenchNine', sans-serif;
+    font-size: 20px;
     position: fixed;
     width: 100%;
     z-index: 1;
@@ -64,14 +66,24 @@ body,
 }
 
 h1 {
-    font-size: 57px;
-    padding: 0px;
     color: firebrick;
+    font-family: 'BenchNine', sans-serif;
+    font-size: 80px;
     font-weight: bold;
+    line-height: 1;
+    padding: 0px;
 }
 
-h5 {
+h4 {
+    font-family: 'Kreon', serif;
+    font-size: 20px;
+    font-weight: bold;
     padding: 10px;
+}
+
+p {
+  font-family: 'Kreon', serif;
+  letter-spacing: 1px;
 }
 
 
@@ -175,6 +187,15 @@ h5 {
 .card-body {
     padding: 10px 1px;
     background-color: rgba(255, 255, 255, 0.483);
+}
+
+.read-more {
+  color: green;
+  font-weight: bolder;
+}
+
+.read-more:hover {
+    color: crimson;
 }
 
 /*Media Query*/
