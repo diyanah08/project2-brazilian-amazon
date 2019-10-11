@@ -3,21 +3,21 @@
 html,
 body,
 .container-fluid {
-    height: 100%;
-    width: 100%;
-    margin: 0px;
-    padding: 0px;
+  height: 100%;
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
 }
 
 #navbar {
-    background-color: rgba(245, 222, 179, 0.775);
-    font-family: 'BenchNine', sans-serif;
-    font-size: 20px;
-    position: fixed;
-    width: 100%;
-    z-index: 1;
-    margin: 0px;
-    padding: 0px;
+  background-color: rgba(245, 222, 179, 0.775);
+  font-family: 'BenchNine', sans-serif;
+  font-size: 17px;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+  margin: 0px;
+  padding: 0px;
 }
 
 .nav {
@@ -25,60 +25,60 @@ body,
 }
 
 .nav-link {
-    color: darkgreen;
-    font-weight: bold;
+  color: darkgreen;
+  font-weight: bold;
 }
 
 .nav-link:hover {
-    color: crimson;
+  color: crimson;
 }
 
 #single-page-app {
-    width: 100%;
+  width: 100%;
 }
 
 .page {
-    text-align: center;
-    height: 100%;
-    width: 100%;
-    padding: 55px 0px 0px 0px;
-    margin: 0px;
-    background-attachment: fixed;
-    background-position: bottom right;
-    background-size: cover;
+  text-align: center;
+  height: 100%;
+  width: 100%;
+  padding: 55px 0px 0px 0px;
+  margin: 0px;
+  background-attachment: fixed;
+  background-position: bottom right;
+  background-size: cover;
 }
 
 .sub-page {
-    justify-content: center;
-    background-color: rgba(255, 255, 255, 0.683);
-    height: 100%;
-    margin: 0px 30px;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 0.683);
+  height: 100%;
+  margin: 0px 30px;
 }
 
 .intro {
-    margin-bottom: 40px;
+  margin-bottom: 40px;
 }
 
 #more-info {
-    padding: 50px;
-    font-weight: bold;
-    text-align: left;
+  padding: 50px;
+  font-weight: bold;
+  text-align: left;
 }
 
 h1 {
-    color: firebrick;
-    font-family: 'BenchNine', sans-serif;
-    font-size: 80px;
-    font-weight: bold;
-    line-height: 1;
-    padding: 0px;
+  color: firebrick;
+  font-family: 'BenchNine', sans-serif;
+  font-size: 80px;
+  font-weight: bold;
+  line-height: 1;
+  padding: 10px 0px 0px 0px;
 }
 
 h4 {
-    font-family: 'Kreon', serif;
-    font-size: 20px;
-    font-weight: bold;
-    padding: 10px;
+  font-family: 'Kreon', serif;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 10px;
 }
 
 p {
@@ -90,103 +90,103 @@ p {
 /*page-one map styles*/
 
 #page-one {
-    background-image: url(images/amazonia.jpg);
-    display: flex;
+  background-image: url(images/amazonia.jpg);
+  display: flex;
 }
 
 #map {
-    width: 100%;
-    height: 90%;
-    flex: 2;
-    margin: 30px 0px;
+  width: 100%;
+  height: 90%;
+  flex: 2;
+  margin: 30px 0px;
 }
 
 #map-info {
-    margin: 30px 0px;
-    background-color: rgba(255, 255, 255, 0.683);
-    flex: 1;
+  margin: 30px 0px;
+  background-color: rgba(255, 255, 255, 0.683);
+  flex: 1;
 }
 
 
 /*page-two chart styles*/
 
 #page-two {
-    background-image: url(images/amazon.jpg);
-    height: 100%;
-    width: 100%;
+  background-image: url(images/amazon.jpg);
+  height: 100%;
+  width: 100%;
 }
 
 .charts {
-    margin: 10px 30px;
-    height: 55%;
-    width: 45%;
-    padding: 0px;
+  margin: 10px 30px;
+  height: 55%;
+  width: 45%;
+  padding: 0px;
 }
 
 .y-axis-label {
-    font-size: 16px;
+  font-size: 16px;
 }
 
 .dc-chart .axis text {
-    font-size: 10px;
+  font-size: 10px;
 }
 
 .x-axis-label {
-    font-size: 20px;
+  font-size: 20px;
 }
 
 
 /*page-three styles*/
 
 #page-three {
-    background-image: url(images/trees.jpg);
-    justify-content: center;
+  background-image: url(images/trees.jpg);
+  justify-content: center;
 }
 
-.images{
-    background-position: bottom right;
-    height: 270px;
-    display: inline-block;
+.images {
+  background-position: bottom right;
+  height: 270px;
+  display: inline-block;
 }
 
 #fireimg {
-    background-image: url(images/fire.jpg);
-    background-size: cover;
-    width: 27%;
+  background-image: url(images/fire.jpg);
+  background-size: cover;
+  width: 27%;
 }
 
 #tableimg {
-    background-image: url(images/damage.jpg);
-    background-size: contain;
-    background-repeat: no-repeat;
-    width: 40%;
-    margin: 0px;
+  background-image: url(images/damage.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 40%;
+  margin: 0px;
 }
 
 #smokeimg {
-    background-image: url(images/smoke.jpg);
-    background-size: cover;
-    width: 27%;
-    margin-right: 30px;
+  background-image: url(images/smoke.jpg);
+  background-size: cover;
+  width: 27%;
+  margin-right: 30px;
 }
 
 /*page-four news*/
 
 #page-four {
-    background-image: url(images/forest.jpg);
+  background-image: url(images/forest.jpg);
 }
 
 #news {
-    padding: 20px 100px;
+  padding: 20px 100px;
 }
 
 .card {
-    display: inline;
+  display: inline;
 }
 
 .card-body {
-    padding: 10px 1px;
-    background-color: rgba(255, 255, 255, 0.483);
+  padding: 10px 1px;
+  background-color: rgba(255, 255, 255, 0.483);
 }
 
 .read-more {
@@ -195,7 +195,7 @@ p {
 }
 
 .read-more:hover {
-    color: crimson;
+  color: crimson;
 }
 
 /*Media Query*/
@@ -204,15 +204,15 @@ p {
   h1 {
     font-size: 27px;
   }
-  
+
   h5 {
     font-size: 17px;
   }
-  
+
   p {
     font-size: 12px;
   }
-  
+
   .mapboxgl-popup {
     width: 50%;
   }
@@ -220,30 +220,31 @@ p {
 
 @media screen and (max-width: 574px) {
 
-/*main styles*/
+  /*main styles*/
+  
   h1 {
     font-size: 30px;
   }
-  
+
   h3 {
     font-size: 17px;
   }
   h4 {
     font-size: 17px;
   }
-  
+
   h5 {
     font-size: 14px;
   }
-  
+
   h6 {
     font-size: 10px;
   }
-  
+
   p {
     font-size: 12px;
   }
-  
+
   .nav {
     justify-content: center;
   }
@@ -251,12 +252,13 @@ p {
   .sub-page {
     margin: 50px 0px 0px 0px;
   }
-  
+
   .intro {
     margin-bottom: 20px;
   }
 
-/*page-one styles*/
+  /*page-one styles*/
+  
   #page-one {
     height: 1000px;
     flex-direction: column;
@@ -275,34 +277,37 @@ p {
     flex: none;
     height: 380px;
   }
+
+  /*page-two styles*/
   
-/*page-two styles*/
   .charts {
     margin: 10px 0px;
     height: 65%;
     width: 75%;
   }
+
+  /*page-three styles*/
   
-/*page-three styles*/  
-  .images{
+  .images {
     height: 200px;
   }
-  
+
   #fireimg {
     width: 100%;
     margin: 0px;
   }
-  
+
   #tableimg {
     width: 100%;
   }
-  
+
   #smokeimg {
     width: 100%;
     margin: 0px;
   }
+
+  /*page-four styles*/
   
-/*page-four styles*/
   #news {
     padding: 20px 30px;
   }
