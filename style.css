@@ -12,7 +12,7 @@ body,
 #navbar {
   background-color: rgba(245, 222, 179, 0.775);
   font-family: 'BenchNine', sans-serif;
-  font-size: 17px;
+  font-size: 20px;
   position: fixed;
   width: 100%;
   z-index: 1;
@@ -224,6 +224,10 @@ p {
   p {
     font-size: 12px;
   }
+  
+  #page-one {
+    height: 900px;
+  }
 
   .mapboxgl-popup {
     width: 50%;
@@ -256,13 +260,17 @@ p {
   p {
     font-size: 12px;
   }
+  
+  #navbar {
+  font-size: 11px;
+  }
 
   .nav {
     justify-content: center;
   }
 
   .sub-page {
-    margin: 50px 0px 0px 0px;
+    margin: 10px 0px 0px 0px;
   }
 
   .intro {
@@ -272,7 +280,7 @@ p {
   /*page-one styles*/
   
   #page-one {
-    height: 1000px;
+    height: 1050px;
     flex-direction: column;
   }
 
@@ -281,13 +289,13 @@ p {
     width: 100%;
     height: 450px;
     padding: 0px;
-    margin-top: 450px;
+    margin-top: 480px;
   }
 
   #map-info {
-    margin: 20px 0px 0px 0px;
+    margin: 10px 0px 0px 0px;
     flex: none;
-    height: 380px;
+    height: 430px;
   }
 
   /*page-two styles*/
