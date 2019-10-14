@@ -23,11 +23,11 @@ function getNews() {
             for (let each_result of results) {
                 let card = `
                     <div class="card" style="width: 18rem;">
-                      <img src="${each_result.urlToImage}" class="card-img-top" alt="Image not found" onerror="this.onerror=null;this.src='images/fire.jpg';">
                       <div class="card-body">
                         <h4 class="card-title">${each_result.title}</h4>
                         <p class="card-text">${each_result.description}</p>
                         <a href="${each_result.url}" class = "read-more" target="_blank"><p>[Read the full article]</p></a>
+                        <img src="${each_result.urlToImage}" class="card-img-top" alt="Image not found" onerror="this.onerror=null;this.src='images/fire.jpg';">
                       </div>
                     </div>
                     `
