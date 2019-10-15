@@ -101,14 +101,14 @@ Beneath all the charts, there is also some extra information related to the numb
 - The footer consists of a link that will open to an external site in a new tab when clicked which has a way for users to make a donation to help the Amazon Rainforest.
 
 ### Features Left to Implement
-1) Better media responsiveness for mapbox
-2) Ability to click on chart on mobile devices to show value as hover does not work on mobile.
-3) More mobile responsiveness: mapbox to be able to move in safari on iPhone.
-4) More information for the ‘Extend of Damage’ page including:
+1) Ability to click on chart on mobile devices to show value as hover does not work on mobile.
+2) More mobile responsiveness: e.g. mapbox to be able to move in safari on iPhone.
+3) More information for the ‘Extend of Damage’ page including:
     - Videos of the aftermath
     - Consequences to health of people in the region
     - Biodiversity consequences
-5) Fixed site to be able to be viewed on Internet Explorer [currently map and news api unavailable]
+4) Fix site to be able to be viewed on Internet Explorer [currently map and news api unavailable]
+5) Fix site to be able to show page still even after links are open in new tabs
 
 ## Technologies Used
 - HTML
@@ -168,11 +168,13 @@ The steps were:
 
 | BROWSERS          | DEVICES                                    | TEST OUTCOMES                                                                                                                                                         |
 | ----------------- |:------------------------------------------:| ---------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
-| Internet Explorer | Windows 10                                 | NewsAPI and mapboxgl is not compatible on IE. Unfortunately the was not time to resolve the issues and will be part of the features left to implement                 |
+| Internet Explorer | Windows 10                                 | NewsAPI and mapboxgl is not compatible on IE.                                                                                                                         |
 | Google Chrome     | Windows 10, Samsung S9, Samsung Galaxy Tab | Testing appeared to pass                                                                                                                                              |
 | Firefox           | Windows 10                                 | Testing appeared to passed                                                                                                                                            |
 | Safari            | iPhone 6 & 7, iPad Pro, MacBook Pro        | On iPhone 6 & 7 & iPad Pro, the mapbox is unable to zoom out or moved hence some information from the popup is cut off. Some fonts are also not compatible on Safari. |
 | Samsung Internet  | Samsung S9, Samsung Galaxy Tab             | Testing appeared to passed                                                                                                                                            |
+
+###### Unfortunately the issues reflected above have not resolved yet at the point of submission and the issues and will be part of the features left to implement
 
 ## Deployment
 This project was hosted through GitHub Pages.

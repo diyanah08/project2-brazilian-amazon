@@ -23,7 +23,7 @@ map.on('load', function() {
                             "name": "Roraima",
                             "icon": "fire-station",
                             "color": "#EC1212",
-                            "description": "<h3><strong>Roraima</strong></h3><p>The Amazon Rainforest covers a total area of 224 299 square kilometres of Romaima.</p><p>Carbon Emission 2001-2018 (Mt): 401628128</p><p>Tree Cover Lost 2001-2018 (ha): 911088</p>"
+                            "description": "<h3><strong>Roraima</strong></h3><p>The Amazon Rainforest covers a total area of 224 299 square kilometres of Romaima.</p><p><span>Carbon Emission (2001-2018):</span></p><p>401,628,128 Mt</p><p><span>Tree Cover Lost (2001-2018):</span></p><p>911,088 ha</p>"
                         },
                         "geometry": {
                             "type": "Point",
@@ -36,7 +36,7 @@ map.on('load', function() {
                             "name": "Amapá",
                             "icon": "fire-station",
                             "color": "#EC1212",
-                            "description": "<h3><strong>Amapá</strong></h3><p>The Amazon Rainforest constitutes about 90% of Amapá's 142 814.5 square kilometres landscape</p><p>Carbon Emission 2001-2018 (Mt): 129725520</p><p>Tree Cover Lost 2001-2018 (ha): 308255</p>"
+                            "description": "<h3><strong>Amapá</strong></h3><p>The Amazon Rainforest constitutes about 90% of Amapá's 142 814.5 square kilometres landscape.</p><p><span>Carbon Emission (2001-2018):</span></p><p>129,725,520 Mt</p><p><span>Tree Cover Lost (2001-2018):</span></p><p>308,255 ha</p>"
                         },
                         "geometry": {
                             "type": "Point",
@@ -49,7 +49,7 @@ map.on('load', function() {
                             "name": "Pará",
                             "icon": "fire-station",
                             "color": "#EC1212",
-                            "description": "<h3><strong>Pará</strong></h3><p>Pará spans a total area of 1 247 689.5 square kilometres with its capital city, Belém, being home to portions of the Amazon Rainforest</p><p>Carbon Emission 2001-2018 (Mt): 5816973800</p><p>Tree Cover Lost 2001-2018 (ha): 13343429</p>"
+                            "description": "<h3><strong>Pará</strong></h3><p>Pará spans a total area of 1 247 689.5 square kilometres with its capital city, Belém, being home to portions of the Amazon Rainforest.</p><p><span>Carbon Emission (2001-2018):</span></p><p>5,816,973,800 Mt</p><p><span>Tree Cover Lost (2001-2018):</span></p><p>13,343,429 ha</p>"
                         },
                         "geometry": {
                             "type": "Point",
@@ -62,7 +62,7 @@ map.on('load', function() {
                             "name": "Mato Grosso",
                             "icon": "fire-station",
                             "color": "#EC1212",
-                            "description": "<h3><strong>Mato Grosso</strong></h3><p>About 40% of Mato Grosso is covered by the forests.</p><p>Carbon Emission 2001-2018 (Mt): 3802990588</p><p>Tree Cover Lost 2001-2018 (ha): 10813165</p>"
+                            "description": "<h3><strong>Mato Grosso</strong></h3><p>About 40% of Mato Grosso is covered by the forests.</p><p><span>Carbon Emission (2001-2018):</span></p><p>3,802,990,588 Mt</p><p><span>Tree Cover Lost (2001-2018):</span></p><p>10,813,165 ha</p>"
                         },
                         "geometry": {
                             "type": "Point",
@@ -75,7 +75,7 @@ map.on('load', function() {
                             "name": "Amazonas",
                             "icon": "fire-station",
                             "color": "#EC1212",
-                            "description": "<h3><strong>Amazonas</strong></h3><p>As its name implies, this state is almost entirely covered by the Amazon Rainforest.</p><p>Carbon Emission 2001-2018 (Mt): 1418817517</p><p>Tree Cover Lost 2001-2018 (ha): 2855794</p>"
+                            "description": "<h3><strong>Amazonas</strong></h3><p>As its name implies, this state is almost entirely covered by the Amazon Rainforest.</p><p><span>Carbon Emission (2001-2018):</span></p><p>1,418,817,517 Mt</p><p><span>Tree Cover Lost (2001-2018):</span></p><p>2,855,794 ha</p>"
                         },
                         "geometry": {
                             "type": "Point",
@@ -88,7 +88,7 @@ map.on('load', function() {
                             "name": "Rondônia",
                             "icon": "fire-station",
                             "color": "#EC1212",
-                            "description": "<h3><strong>Rondônia</strong></h3>Rondônia spans a total area of 237 576.16 square kilometres with a major part of this state being home to a vast proportion of the Amazon Forest.</p><p>Carbon Emission 2001-2018 (Mt): 1889749773</p><p>Tree Cover Lost 2001-2018 (ha): 4098494</p>"
+                            "description": "<h3><strong>Rondônia</strong></h3><p>Rondônia spans a total area of 237 576.16 square kilometres with a major part of this state being home to a vast proportion of the Amazon Forest.</p><p><span>Carbon Emission (2001-2018):</span></p><p> 1,889,749,773 Mt</p><p><span>Tree Cover Lost (2001-2018):</span></p><p>4,098,494</p>"
                         },
                         "geometry": {
                             "type": "Point",
@@ -101,7 +101,7 @@ map.on('load', function() {
                             "name": "Acre",
                             "icon": "fire-station",
                             "color": "#EC1212",
-                            "description": "<h3><strong>Acre</strong></h3>Acre is 152 581 square kilometres and is completely occupied by the exquisite Amazon Rainforest.</p><p>Carbon Emission 2001-2018 (Mt): 633054908</p><p>Tree Cover Lost 2001-2018 (ha): 1142727</p>"
+                            "description": "<h3><strong>Acre</strong></h3><p>Acre is 152 581 square kilometres and is completely occupied by the exquisite Amazon Rainforest.</p><p><span>Carbon Emission (2001-2018):</span></p><p> 633,054,908 Mt</p><p><span>Tree Cover Lost (2001-2018):</span></p><p>1,142,727 ha</p>"
                         },
                         "geometry": {
                             "type": "Point",

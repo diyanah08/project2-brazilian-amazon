@@ -138,7 +138,7 @@ queue()
         .colors("limegreen")
         .group(octoberFires, "Oct"),
         dc.lineChart(compositeChart)
-        .colors("copper")
+        .colors("purple")
         .group(novemberFires, "Nov"),
         dc.lineChart(compositeChart)
         .colors("goldenrod")
