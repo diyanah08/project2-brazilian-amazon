@@ -92,6 +92,7 @@ p {
 #page-one {
   background-image: url(images/amazonia.jpg);
   display: flex;
+  height: 100%;
 }
 
 #map {
@@ -107,6 +108,11 @@ p {
   flex: 1;
 }
 
+.highlight {
+  background-color: red;
+  color: white;
+  padding: 0px 10px;
+}
 
 /*page-two chart styles*/
 
