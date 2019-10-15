@@ -149,31 +149,8 @@ p {
   justify-content: center;
 }
 
-.images {
-  background-position: bottom right;
-  height: 270px;
-  display: inline-block;
-}
-
-#fireimg {
-  background-image: url(images/fire.jpg);
-  background-size: cover;
-  width: 27%;
-}
-
-#tableimg {
-  background-image: url(images/damage.jpg);
-  background-size: contain;
-  background-repeat: no-repeat;
-  width: 40%;
-  margin: 0px;
-}
-
-#smokeimg {
-  background-image: url(images/smoke.jpg);
-  background-size: cover;
-  width: 27%;
-  margin-right: 30px;
+#effects {
+  padding: 20px;
 }
 
 /*page-four news*/
