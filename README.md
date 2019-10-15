@@ -29,7 +29,7 @@ The site will include:
 
 - A map of the Brazilian states
 - Charts of spread of fire through the years
-- Information on extent of damage
+- Presentation of forest fire effects
 - Up-to-date news on the fires
 - Ability for users to donate to help the cause
 
@@ -84,9 +84,10 @@ When a user clicks on a year on the bar chart, they can see:
 
 Beneath all the charts, there is also some extra information related to the number of occurrences of the fires.
 
-##### PAGE 3 / TEXT & IMAGES / EXTEND OF DAMAGE
-###### 5) This page consists of a table of the carbon emission and loss of tree cover from 2001 – 2018.
+##### PAGE 3 / PESENTATION / FOREST FIRE EFFECTS
+###### 5) This page consists a presentation of the firest fire effects.
 - It also provides some information of how is affects the earth as a whole.
+- The user will be able to click the play button on the presentation and use the arrow keys on the keypad to go through the slides.
 
 ##### PAGE 4 / NEWS API / IN THE NEWS
 ###### 6) API [News API, axios, jQuery]
@@ -124,6 +125,8 @@ Beneath all the charts, there is also some extra information related to the numb
     - [MAKI ICONS](https://labs.mapbox.com/maki-icons/) by mapbox was used as markers in the map.
 - [D3](https://cdnjs.com/libraries/d3), [DC](cdnjs.com/libraries/dc) and [Crossfilter](https://cdnjs.com/libraries/crossfilter)
     - Used to provide visualizations in terms of pie chart, bar charts and composite charts that are interactive and linked to each other.
+- [Prezi](https://prezi.com)
+    - Used to create presentaion for display of information.
 - [Axios](https://cdnjs.com/libraries/axios)
     - Used for data retrieval from an API.
 - [News API](https://newsapi.org/)
@@ -148,9 +151,9 @@ The steps were:
 - When hovered over a certain aspect of the chart, the total number associate to the aspect will appear – checked
     - However not available on mobile devices
 
-##### 4) Extent of Damage page
+##### 4) Forest Fire Effects page
 - When the link, site will load some information on the extent of damage – checked
-- There is a table with values of tree cover loss and carbon emission from years 2001 – 2018 – checked
+- Presentation can be played and loaded from slide to slide – checked
 
 ##### 5) In the News page
 - When the link, site will load some information on the extent of damage – checked
@@ -185,7 +188,7 @@ This project was hosted through GitHub Pages.
 #### Content
 - The information for the map popups was obtained from [here.](https://www.brazil.org.za/)
 - The dataset for the charts was obtained from [here.](https://www.kaggle.com/gustavomodelli/forest-fires-in-brazil)
-- The information from pages of “Spread of Fire” & “Extend of Damage” was obtained from [here](https://www.bbc.com/news/world-latin-america-49433767), [here](https://news.mongabay.com/2019/08/amazon-rainforest-fires-leave-sao-paulo-in-the-dark/) and [here.](https://rainforests.mongabay.com/deforestation/archive/Brazil.html)
+- The information from pages of "Brazilian Amazon", “Spread of Fire” & “Forest Fire Effects” was obtained from [here](http://www.fao.org/in-action/at-home-in-the-amazon/en/), [here](https://www.sciencedaily.com/releases/2015/08/150824064927.htm), [here](https://www.bbc.com/news/world-latin-america-49433767), [here](https://news.mongabay.com/2019/08/amazon-rainforest-fires-leave-sao-paulo-in-the-dark/) and [here.](https://rainforests.mongabay.com/deforestation/archive/Brazil.html)
 
 #### Media
 - The photos used in this site were obtained from pexels.com and [here.](https://news.mongabay.com/2019/08/amazon-rainforest-fires-leave-sao-paulo-in-the-dark/)
