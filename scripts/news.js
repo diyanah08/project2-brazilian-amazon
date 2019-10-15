@@ -17,7 +17,7 @@ let APIKEY = "d868f89e50334512a67d3922bf493da0"
 // as the date is not specified in the parameters, the results will be updated automatically when more news is added into the newsAPI website
 
 function getNews() {
-    axios.get("https://newsapi.org/v2/everything?qInTitle=%22amazon+rainforest+fires%22&sortBy=relavancy&pageSize=9&apiKey=" + APIKEY)
+    axios.get("https://newsapi.org/v2/everything?qInTitle=%22amazon+rainforest+fires%22&sortBy=relavancy&pageSize=6&apiKey=" + APIKEY)
         .then(function(response) {
             let results = response.data.articles;
             for (let each_result of results) {
