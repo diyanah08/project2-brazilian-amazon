@@ -23,7 +23,7 @@ map.on('load', function() {
                             "name": "Roraima",
                             "icon": "fire-station",
                             "color": "#EC1212",
-                            "description": "<h3><strong>Roraima</strong></h3><p>Raraima is the northernmost state. It is the least populated state of Brazil, South America, with fewer than 500 000 inhabitants.</p><p>Roraima is placed firmly within the beautiful Amazon Jungle that covers a total area of 224 299 square kilometres.</p> "
+                            "description": "<h3><strong>Roraima</strong></h3><p>The Amazon Rainforest covers a total area of 224 299 square kilometres of Romaima.</p><p>Carbon Emission 2001-2018 (Mt): 401628128</p><p>Tree Cover Lost 2001-2018 (ha): 911088</p>"
                         },
                         "geometry": {
                             "type": "Point",
@@ -36,7 +36,7 @@ map.on('load', function() {
                             "name": "Amapá",
                             "icon": "fire-station",
                             "color": "#EC1212",
-                            "description": "<h3><strong>Amapá</strong></h3><p>Amapá is situated in the extreme north of Brazil, bordered by French Guiana, Suriname, the Atlantic Ocean, and Pará. This state has an area of 142 814.5 square kilometres (or 55 141 square miles) and is home to just under 700 000 people.</p><p>The vast Amazon Jungle constitutes about 90% of the vegetation and landscape of this Brazilian state.</p> "
+                            "description": "<h3><strong>Amapá</strong></h3><p>The Amazon Rainforest constitutes about 90% of Amapá's 142 814.5 square kilometres landscape</p><p>Carbon Emission 2001-2018 (Mt): 129725520</p><p>Tree Cover Lost 2001-2018 (ha): 308255</p>"
                         },
                         "geometry": {
                             "type": "Point",
@@ -49,7 +49,7 @@ map.on('load', function() {
                             "name": "Pará",
                             "icon": "fire-station",
                             "color": "#EC1212",
-                            "description": "<h3><strong>Pará</strong></h3><p>Pará is situated in the northeast of this country and is bordered by Amapá, Maranhão, Tocantins, Mato Grosso, Amazonas, Roraima, Guyana, Suriname, and the exquisite blue of the Atlantic Ocean. It spans a total area of 1 247 689.5 square kilometres (or 481 735.6 square miles), is home to more than 7.5 million people and is one of the most populous in Brazil.</p><p>Its capital city, Belém, is known for being home to portions of the Amazon River and its jungle</p>"
+                            "description": "<h3><strong>Pará</strong></h3><p>Pará spans a total area of 1 247 689.5 square kilometres with its capital city, Belém, being home to portions of the Amazon Rainforest</p><p>Carbon Emission 2001-2018 (Mt): 5816973800</p><p>Tree Cover Lost 2001-2018 (ha): 13343429</p>"
                         },
                         "geometry": {
                             "type": "Point",
@@ -62,7 +62,7 @@ map.on('load', function() {
                             "name": "Mato Grosso",
                             "icon": "fire-station",
                             "color": "#EC1212",
-                            "description": "<h3><strong>Mato Grosso</strong></h3><p>The inland Brazilian state of Mato Grosso is surrounded by Rondônia, Amazonas, Pará, Tocantins, Goiás, Mato Grosso do Sul and Bolivia. Mato Grosso has a total population of approximately 2 500 000 people. Mato Grosso lies predominantly on the western part of the Brazilian Plateau.</p><p>It is elevated approximately 3 000 feet above sea level along the Mato Grosso Plateau, which is home to the line that separates the neighbouring drainage basins, the Amazon River basin and the Río de la Plata basin.</p>"
+                            "description": "<h3><strong>Mato Grosso</strong></h3><p>About 40% of Mato Grosso is covered by the forests.</p><p>Carbon Emission 2001-2018 (Mt): 3802990588</p><p>Tree Cover Lost 2001-2018 (ha): 10813165</p>"
                         },
                         "geometry": {
                             "type": "Point",
@@ -75,7 +75,7 @@ map.on('load', function() {
                             "name": "Amazonas",
                             "icon": "fire-station",
                             "color": "#EC1212",
-                            "description": "<h3><strong>Amazonas</strong></h3><p>Amazonas is situated in the northwest of this South American country. It is the largest state in Brazil and is bordered by Roraima, Pará, Mato Grosso, Rondônia, Acre, Peru, Colombia and Venezuela.</p><p>As its name implies, this state is almost entirely covered by the Amazon Rainforest and enjoys the splendour of the massive Amazon River.</p>"
+                            "description": "<h3><strong>Amazonas</strong></h3><p>As its name implies, this state is almost entirely covered by the Amazon Rainforest.</p><p>Carbon Emission 2001-2018 (Mt): 1418817517</p><p>Tree Cover Lost 2001-2018 (ha): 2855794</p>"
                         },
                         "geometry": {
                             "type": "Point",
@@ -88,7 +88,7 @@ map.on('load', function() {
                             "name": "Rondônia",
                             "icon": "fire-station",
                             "color": "#EC1212",
-                            "description": "<h3><strong>Rondônia</strong></h3><p>Rondônia is nestled in northwest Brazil, bordered by Acre, Amazonas, Mato Grosso and Bolivia. It boasts a total area of 237 576.16 square kilometres (or  91 729 square miles).</p><p>A major part of this state’s appeal lies in its being home to a vast proportion of the Amazon Forest.</p>"
+                            "description": "<h3><strong>Rondônia</strong></h3>Rondônia spans a total area of 237 576.16 square kilometres with a major part of this state being home to a vast proportion of the Amazon Forest.</p><p>Carbon Emission 2001-2018 (Mt): 1889749773</p><p>Tree Cover Lost 2001-2018 (ha): 4098494</p>"
                         },
                         "geometry": {
                             "type": "Point",
@@ -101,7 +101,7 @@ map.on('load', function() {
                             "name": "Acre",
                             "icon": "fire-station",
                             "color": "#EC1212",
-                            "description": "<h3><strong>Acre</strong></h3><p>Acre is a state in the extreme south-west of the Northern Region of Brazil, which is bordered by Amazonas, Rondônia, Bolivia and the Ucayali Region (Peru). It is 152 581 square kilometres (or 58 911 square miles) in area. Acre is completely occupied by the exquisite Amazon Rainforest.</p>"
+                            "description": "<h3><strong>Acre</strong></h3>Acre is 152 581 square kilometres and is completely occupied by the exquisite Amazon Rainforest.</p><p>Carbon Emission 2001-2018 (Mt): 633054908</p><p>Tree Cover Lost 2001-2018 (ha): 1142727</p>"
                         },
                         "geometry": {
                             "type": "Point",
