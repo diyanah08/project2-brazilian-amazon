@@ -1,8 +1,10 @@
 # Brazilian Amazon Fires
 ###### Project 2: Interactive Front-End Project - Code Institute
+The main feature for the site is the interactive graphs [on the second page of the site / 'Spread of fire' page] which shows the spread of fires through the years, in the different states. The purpose of having the map in the first page of the site is to provide an introduction to the topic.
+
 This website aims to raise awareness to the fires that are happening in the Amazon Rainforest through the years. As the Amazon Rainforest helps with the regulating of global warming, it is important for there to be awareness. This website aims to do so and hopefully gather donations that could help in stopping the fires as well.
 
-Specifically, this website looks at the fires and their effects in the Brazilian states that are part of the rainforest which is sometimes known as the Brazilian Amazon. 
+Specifically, this website looks at the fires and their effects in the Brazilian states that are part of the rainforest which is sometimes known as the Brazilian Amazon.
 
 ## Demo
 A live demo can be found [here.](https://diyanah08.github.io/project2-brazilian-amazon/)
@@ -63,8 +65,8 @@ This hence enables users to differentiate the areas of the page.
 - Mapboxgl is used in this website: allows users to have a visual of where the different states are.
 - Map markers and popups: displays information about the different states when clicked on. The description is loaded up using the mapboxgl layers and other markers and popups can be added in if needed.
 
-##### PAGE 2 / CHARTS / SPREAD OF FIRE
-###### 4) Charts [d3.js, dc.js, crossfilter):
+##### PAGE 2 / CHARTS / SPREAD OF FIRE / MAIN FEATURE OF WEBSITE
+###### 4) Charts [d3.js, dc.js, crossfilter]:
 In the Spread of Fires page, there are 4 charts:
 
 - Pie chart of number of accumulated fires from 1998-2017 for each state.
