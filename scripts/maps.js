@@ -88,7 +88,7 @@ map.on('load', function() {
                             "name": "Rondônia",
                             "icon": "fire-station",
                             "color": "#EC1212",
-                            "description": "<h3><strong>Rondônia</strong></h3><p>Rondônia spans a total area of 237 576.16 square kilometres with a major part of this state being home to a vast proportion of the Amazon Forest.</p><p><span>Carbon Emission (2001-2018):</span></p><p> 1,889,749,773 Mt</p><p><span>Tree Cover Lost (2001-2018):</span></p><p>4,098,494</p>"
+                            "description": "<h3><strong>Rondônia</strong></h3><p>Rondônia spans a total area of 237 576.16 square kilometres with a major part of this state being home to a vast proportion of the Amazon Forest.</p><p><span>Carbon Emission (2001-2018):</span></p><p> 1,889,749,773 Mt</p><p><span>Tree Cover Lost (2001-2018):</span></p><p>4,098,494 ha</p>"
                         },
                         "geometry": {
                             "type": "Point",
