@@ -168,13 +168,14 @@ The steps were:
 
 | BROWSERS          | DEVICES                                    | TEST OUTCOMES                                                                                                                                                         |
 | ----------------- |:------------------------------------------:| ---------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
-| Internet Explorer | Windows 10                                 | NewsAPI and mapboxgl is not compatible on IE.                                                                                                                         |
+| Windows Edge      | Windows 10                                 | Testing appeared to pass                                                                                                                                              |
 | Google Chrome     | Windows 10, Samsung S9, Samsung Galaxy Tab | Testing appeared to pass                                                                                                                                              |
 | Firefox           | Windows 10                                 | Testing appeared to passed                                                                                                                                            |
 | Safari            | iPhone 6 & 7, iPad Pro, MacBook Pro        | On iPhone 6 & 7 & iPad Pro, the mapbox is unable to zoom out or moved hence some information from the popup is cut off. Some fonts are also not compatible on Safari. |
 | Samsung Internet  | Samsung S9, Samsung Galaxy Tab             | Testing appeared to passed                                                                                                                                            |
+| Internet Explorer | Windows 10                                 | NewsAPI and mapboxgl is not compatible on IE.                                                                                                                         |
 
-###### Unfortunately the issues reflected above have not resolved yet at the point of submission and the issues and will be part of the features left to implement
+###### Unfortunately the issues reflected above have yet to be resolved at the point of submission and the issues have been noted as part of the features left to implemented.
 
 ## Deployment
 This project was hosted through GitHub Pages.
