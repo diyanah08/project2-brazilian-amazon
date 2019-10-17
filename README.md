@@ -41,11 +41,11 @@ The site will use a single page application with navigation bar which is intuiti
 To view the original wireframe of the website click [here.](https://github.com/diyanah08/project2-brazilian-amazon/tree/master/wireframe/wireframe.jpg)
 
 #### Skeleton:
-Each page will have a header, a simple text to tell user what the page is about, the main content(eg map, charts) and some pages will have additional information at the bottom of the page after the main content.
+Each page will have a header, a simple text to tell user what the page is about, the main content(eg map, charts, presentation, news articles) and some pages will have additional information at the bottom of the page after the main content.
 
 
 #### Surface:
-As the site is about the fires in the rainforest, the colour scheme of this site is mostly green with hints of red and off-white to resemble tress, fire and smoke.
+As the site is about the fires in the rainforest, the colour scheme of this site is mostly green with hints of red and off-white to resemble trees, fire and smoke.
 Only the charts have different colours to highlight the different states there are.
 Fonts are also limited to 3 kinds with headers having 1 font, information having another and charts having a different font.
 This hence enables users to differentiate the areas of the page.
@@ -105,12 +105,8 @@ Beneath all the charts, there is also some extra information related to the numb
 ### Features Left to Implement
 1) Ability to click on chart on mobile devices to show value as hover does not work on mobile.
 2) More mobile responsiveness: e.g. mapbox to be able to move in safari on iPhone.
-3) More information for the ‘Extend of Damage’ page including:
-    - Videos of the aftermath
-    - Consequences to health of people in the region
-    - Biodiversity consequences
-4) Fix site to be able to be viewed on Internet Explorer [currently map and news api unavailable]
-5) Fix site to be able to show page still even after links are open in new tabs
+3) Fix site to be able to be viewed on Internet Explorer [currently map and news api unavailable]
+4) Fix site to be able to show page still even after links are open in new tabs
 
 ## Technologies Used
 - HTML
@@ -150,7 +146,7 @@ The steps were:
 ##### 3) Spread of Fire page
 - When the link, site will load the four charts and some information at the bottom – checked
 - When clicked on each part of the different charts, the other charts will transform accordingly – checked
-- When hovered over a certain aspect of the chart, the total number associate to the aspect will appear – checked
+- When hovered over a certain aspect of the bar and composite charts, the total number associate to the aspect will appear – checked
     - However not available on mobile devices
 
 ##### 4) Forest Fire Effects page
@@ -191,9 +187,9 @@ This project was hosted through GitHub Pages.
 
 ## Credits
 #### Content
-- The information for the map popups was obtained from [here.](https://www.brazil.org.za/)
+- The information for the map popups was obtained from [here](https://www.brazil.org.za/) and [here.](https://rainforests.mongabay.com/deforestation/archive/Brazil.htm)
 - The dataset for the charts was obtained from [here.](https://www.kaggle.com/gustavomodelli/forest-fires-in-brazil)
-- The information from pages of "Brazilian Amazon", “Spread of Fire” & “Forest Fire Effects” was obtained from [here](http://www.fao.org/in-action/at-home-in-the-amazon/en/), [here](https://www.sciencedaily.com/releases/2015/08/150824064927.htm), [here](https://www.bbc.com/news/world-latin-america-49433767), [here](https://news.mongabay.com/2019/08/amazon-rainforest-fires-leave-sao-paulo-in-the-dark/) and [here.](https://rainforests.mongabay.com/deforestation/archive/Brazil.html)
+- The information from pages of "Brazilian Amazon", “Spread of Fire” & “Forest Fire Effects” was obtained from [here](http://www.fao.org/in-action/at-home-in-the-amazon/en/), [here](https://www.sciencedaily.com/releases/2015/08/150824064927.htm), [here](https://www.bbc.com/news/world-latin-america-49433767) and [here.](https://news.mongabay.com/2019/08/amazon-rainforest-fires-leave-sao-paulo-in-the-dark/)
 
 #### Media
 - The photos used in this site were obtained from pexels.com and [here.](https://news.mongabay.com/2019/08/amazon-rainforest-fires-leave-sao-paulo-in-the-dark/)
