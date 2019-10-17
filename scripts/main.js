@@ -10,4 +10,4 @@ $(function() {
     $('.page').hide();
     $('#' + page).show();
   });
-})
+});

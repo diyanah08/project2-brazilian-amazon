@@ -26,8 +26,8 @@ queue()
 
 
 // bar chart 1 - fire by year
-    let year_dim = fireCrossFilter.dimension(dc.pluck("year"))
-    let fire_per_year = year_dim.group().reduceSum(dc.pluck('number'))
+    let year_dim = fireCrossFilter.dimension(dc.pluck("year"));
+    let fire_per_year = year_dim.group().reduceSum(dc.pluck('number'));
 
     dc.barChart("#bar-chart")
       .width(600)
@@ -41,7 +41,7 @@ queue()
       .xUnits(dc.units.ordinal)
       .xAxisLabel("Month")
       .useViewBoxResizing(true)
-      .yAxis().ticks(20)
+      .yAxis().ticks(20);
 
 // bar chart 2 - fire by month
     let month_dim = fireCrossFilter.dimension(dc.pluck('month'));
@@ -80,7 +80,7 @@ queue()
         else {
           return 0;
         }
-      }
+      };
     }
 
     let januaryFires = date_dim.group().reduceSum(fire_by_month("Jan"));
@@ -147,46 +147,6 @@ queue()
       .brushOn(false)
       .useViewBoxResizing(true)
       .legend(dc.legend().horizontal(true).x(120).y(20).legendWidth(350).itemWidth(70).itemHeight(10).gap(2));
-
-
-    //stacked chart --> kiv 
-    /*  function fire_by_state(state) {
-          return function (d) {
-            if (d.state === state) {
-              return +d.number;
-            } else {
-              return 0;
-            }
-          }
-        }
-
-        let fireInAcreYear = year_dim.group().reduceSum(fire_by_state("Acre"));
-        let fireInAmapaYear = year_dim.group().reduceSum(fire_by_state("Amapa"));
-        let fireInAmazonasYear = year_dim.group().reduceSum(fire_by_state("Amazonas"));
-        let fireInMatoGrossoYear = year_dim.group().reduceSum(fire_by_state("Mato Grosso"));
-        let fireInParaYear = year_dim.group().reduceSum(fire_by_state("Pará"));
-        let fireInRondoniaYear = year_dim.group().reduceSum(fire_by_state("Rondonia"));
-        let fireInRoraimaYear = year_dim.group().reduceSum(fire_by_state("Roraima"));
-
-        let stackedChart = dc.barChart("#stacked-chart");
-        stackedChart
-          .width(600)
-          .height(400)
-          .margins({ top: 30, right: 50, bottom: 50, left: 70 })
-          .dimension(year_dim)
-          .group(fireInAcreYear, "Acre")
-          .stack(fireInAmapaYear, "Ampa")
-          .stack(fireInAmazonasYear, "Amazonas")
-          .stack(fireInMatoGrossoYear, "Mato Grosso")
-          .stack(fireInParaYear, "Pará")
-          .stack(fireInRondoniaYear, "Rondonia")
-          .stack(fireInRoraimaYear, "Roraima")
-          .x(d3.scale.ordinal())
-          .xUnits(dc.units.ordinal)
-          .xAxisLabel("Year")
-          .yAxisLabel("Number of Fires")
-          .legend(dc.legend().x(90).y(20).itemHeight(15).gap(5))
-          .colors(d3.scale.ordinal().range(["purple", "pink", "blue", "red", "orange", "green", "brown"]));*/
 
     dc.renderAll();
   });

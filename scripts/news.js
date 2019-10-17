@@ -1,7 +1,7 @@
 /* global axios */
 /* global $ */
 
-let APIKEY = "d868f89e50334512a67d3922bf493da0"
+let APIKEY = "d868f89e50334512a67d3922bf493da0";
 
 // testing the API
 // function testNewsAPI()
@@ -33,8 +33,8 @@ function getNews() {
                     `
                 $("#news").append($(card));
             }
-        })
+        });
 
 }
 
-getNews()
+getNews();
