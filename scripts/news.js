@@ -1,7 +1,7 @@
 /* global axios */
 /* global $ */
 
-let APIKEY = "d868f89e50334512a67d3922bf493da0";
+let APIKEY = "ce04a71b73a9415ea34ead61f07d893a";
 
 // testing the API
 // function testNewsAPI()
